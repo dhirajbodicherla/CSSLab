@@ -23,6 +23,7 @@ body{
   -ms-transform: skewX(43deg) rotate(40deg);
   transform: skewX(43deg) rotate(40deg);
   background: @bodyColor;
+  box-shadow: 4px -2px 7px 8px silver;
   z-index: 5;
 }
 #left-forehead:after{
@@ -164,6 +165,7 @@ body{
   -ms-transform: skewX(-43deg) rotate(-40deg);
   transform: skewX(-43deg) rotate(-40deg);
   background: @bodyColor;
+  box-shadow: 7px -14px 14px 0px silver;
   z-index: 5;
 }
 #right-forehead:after{
@@ -197,6 +199,7 @@ body{
   -o-transform: skew(0deg, 43deg);
   -ms-transform: skew(0deg, 43deg);
   transform: skew(0deg, 43deg);
+  box-shadow: 13px 0px 7px 12px silver;
   z-index: 5;
 }
 #left-cheek:after{
@@ -253,6 +256,7 @@ body{
   position: absolute;
   top: 270px;
   left: 150px;
+  box-shadow: 0 6px 6px 0 silver;
   z-index: 5;
 }
 #mustache:before {
@@ -318,7 +322,8 @@ body{
   -o-transform: skew(0deg, -43deg);
   -ms-transform: skew(0deg, -43deg);
   transform: skew(0deg, -43deg);
-  z-index: 5;
+  box-shadow: -13px 1px 7px 6px silver;
+  z-index: 4;
 }
 #right-cheek:after{
   position: absolute;
@@ -406,4 +411,3 @@ body{
   50%  { height: 270px;}
   100% { left: 350px; top: 150px;opacity: 0;}
 }
-
