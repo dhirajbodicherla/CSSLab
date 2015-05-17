@@ -22,7 +22,11 @@ body{
   border-radius: 50%;
   top: 20px;
   left: 50px;
-  transform: rotate(-12deg) skewX(48deg);
+  -webkit-transform: rotate(-12deg) skewX(48deg);
+     -moz-transform: rotate(-12deg) skewX(48deg);
+      -ms-transform: rotate(-12deg) skewX(48deg);
+       -o-transform: rotate(-12deg) skewX(48deg);
+          transform: rotate(-12deg) skewX(48deg);
 }
 #hair:after{
   position: absolute;
@@ -33,7 +37,11 @@ body{
   height: 18px;
   border: 2px solid;
   background: #fee3da;
-  transform: rotate(-26deg) skew(-4deg, 11deg);
+  -webkit-transform: rotate(-26deg) skew(-4deg, 11deg);
+     -moz-transform: rotate(-26deg) skew(-4deg, 11deg);
+      -ms-transform: rotate(-26deg) skew(-4deg, 11deg);
+       -o-transform: rotate(-26deg) skew(-4deg, 11deg);
+          transform: rotate(-26deg) skew(-4deg, 11deg);
 }
 #hair #rings{
   position: absolute;
@@ -45,7 +53,11 @@ body{
   border: 3px solid;
   border-radius: 100%;
   background: transparent;
-  transform: rotate(-5deg) skewX(-48deg);
+  -webkit-transform: rotate(-5deg) skewX(-48deg);
+     -moz-transform: rotate(-5deg) skewX(-48deg);
+      -ms-transform: rotate(-5deg) skewX(-48deg);
+       -o-transform: rotate(-5deg) skewX(-48deg);
+          transform: rotate(-5deg) skewX(-48deg);
 }
 #hair #strands{
   position: absolute;
@@ -55,7 +67,11 @@ body{
   height: 10px;
   border: 3px solid;
   background: @skinColor;
-  transform: rotateZ(-37deg) skew(0,0);
+  -webkit-transform: rotateZ(-37deg) skew(0,0);
+     -moz-transform: rotateZ(-37deg) skew(0,0);
+      -ms-transform: rotateZ(-37deg) skew(0,0);
+       -o-transform: rotateZ(-37deg) skew(0,0);
+          transform: rotateZ(-37deg) skew(0,0);
   border-top-width: 1px;
 }
 /*
@@ -102,6 +118,10 @@ transform: rotate(-5deg);
   -webkit-border-radius: 100% 80%;
   border-radius: 100% 80%;
   -webkit-transform: rotateX(-5deg) rotateY(-126deg);
+     -moz-transform: rotateX(-5deg) rotateY(-126deg);
+      -ms-transform: rotateX(-5deg) rotateY(-126deg);
+       -o-transform: rotateX(-5deg) rotateY(-126deg);
+          transform: rotateX(-5deg) rotateY(-126deg);
   z-index: 5;
 }
 #left-glass:after{
@@ -128,6 +148,10 @@ transform: rotate(-5deg);
   -webkit-border-radius: 100% 80%;
   border-radius: 100% 80%;
   -webkit-transform: rotateX(-5deg) rotateY(-126deg);
+     -moz-transform: rotateX(-5deg) rotateY(-126deg);
+      -ms-transform: rotateX(-5deg) rotateY(-126deg);
+       -o-transform: rotateX(-5deg) rotateY(-126deg);
+          transform: rotateX(-5deg) rotateY(-126deg);
   z-index: 3;
   overflow: hidden;
 }
@@ -151,7 +175,11 @@ transform: rotate(-5deg);
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid white;
   height: 10px;
-  transform: rotateX(-29deg) rotateY(162deg);
+  -webkit-transform: rotateX(-29deg) rotateY(162deg);
+     -moz-transform: rotateX(-29deg) rotateY(162deg);
+      -ms-transform: rotateX(-29deg) rotateY(162deg);
+       -o-transform: rotateX(-29deg) rotateY(162deg);
+          transform: rotateX(-29deg) rotateY(162deg);
   top: -20px;
 
   -webkit-animation: shine .3s 1s ease forwards 1;
@@ -170,7 +198,7 @@ transform: rotate(-5deg);
   border-left: none;
   border-bottom: none;
   background: #fee3da;
-  -webkit-transform: rotateZ(-7deg) skew(-46deg);
+  transform: rotateZ(-7deg) skew(-46deg);
 }
 #nose:after{
   content: '';
@@ -185,6 +213,10 @@ transform: rotate(-5deg);
   border-left: none;
   background: #fee3da;
   -webkit-transform: rotateZ(27deg) skew(66deg);
+     -moz-transform: rotateZ(27deg) skew(66deg);
+      -ms-transform: rotateZ(27deg) skew(66deg);
+       -o-transform: rotateZ(27deg) skew(66deg);
+          transform: rotateZ(27deg) skew(66deg);
   border-bottom: 1px solid;
 }
 #left-ear{
@@ -199,7 +231,11 @@ transform: rotate(-5deg);
   -webkit-border-radius: 40px 0 0 40px;
   border-radius: 40px 0 0 40px;
   border-right: none;
-  transform: rotateZ(2deg);
+  -webkit-transform: rotateZ(2deg);
+     -moz-transform: rotateZ(2deg);
+      -ms-transform: rotateZ(2deg);
+       -o-transform: rotateZ(2deg);
+          transform: rotateZ(2deg);
 }
 #right-ear{
   position: absolute;
@@ -213,7 +249,11 @@ transform: rotate(-5deg);
   -webkit-border-radius: 0 40px 40px 0;
   border-radius: 0 40px 40px 0;
   border-left: none;
-  transform: rotateZ(14deg);
+  -webkit-transform: rotateZ(14deg);
+     -moz-transform: rotateZ(14deg);
+      -ms-transform: rotateZ(14deg);
+       -o-transform: rotateZ(14deg);
+          transform: rotateZ(14deg);
 }
 #chin {
   position: absolute;
@@ -239,7 +279,11 @@ transform: rotate(-5deg);
   border-right-color: transparent;
   border-top-color: transparent;
   border-bottom-color: transparent;
-  transform: rotateZ(-52deg);
+  -webkit-transform: rotateZ(-52deg);
+     -moz-transform: rotateZ(-52deg);
+      -ms-transform: rotateZ(-52deg);
+       -o-transform: rotateZ(-52deg);
+          transform: rotateZ(-52deg);
   /* z-index: 7; */
   /* border-bottom-right-radius: 13px; */
   background-clip: content-box;
@@ -257,7 +301,11 @@ transform: rotate(-5deg);
   border-right-color: transparent;
   border-top-color: transparent;
   border-bottom-color: transparent;
-  transform: rotateZ(-129deg);
+  -webkit-transform: rotateZ(-129deg);
+     -moz-transform: rotateZ(-129deg);
+      -ms-transform: rotateZ(-129deg);
+       -o-transform: rotateZ(-129deg);
+          transform: rotateZ(-129deg);
   z-index: 0;
   /* border-top-right-radius: 36px; */
   background-clip: padding-box;
@@ -311,7 +359,11 @@ transform: rotate(-5deg);
   background: white;
   height: 18px;
   width: 5px;
-  transform: rotateZ(10deg);
+  -webkit-transform: rotateZ(10deg);
+     -moz-transform: rotateZ(10deg);
+      -ms-transform: rotateZ(10deg);
+       -o-transform: rotateZ(10deg);
+          transform: rotateZ(10deg);
   z-index: -1;
 }
 #left-hand .finger-1 {
@@ -323,7 +375,11 @@ transform: rotate(-5deg);
   border-right: 0;
   border-bottom: 0;
   left: 2px;
-  transform: rotateZ(15deg);
+  -webkit-transform: rotateZ(15deg);
+     -moz-transform: rotateZ(15deg);
+      -ms-transform: rotateZ(15deg);
+       -o-transform: rotateZ(15deg);
+          transform: rotateZ(15deg);
   height: 0;
   width: 0px;
 }
@@ -335,7 +391,11 @@ transform: rotate(-5deg);
   border-top: 1px solid @fingerColor;
   border-radius: 100% 50%;
   left: 0;
-  transform: rotateZ(10deg);
+  -webkit-transform: rotateZ(10deg);
+     -moz-transform: rotateZ(10deg);
+      -ms-transform: rotateZ(10deg);
+       -o-transform: rotateZ(10deg);
+          transform: rotateZ(10deg);
   background: #83328a;
 }
 #left-hand .finger-3 {
@@ -346,7 +406,11 @@ transform: rotate(-5deg);
   border-top: 1px solid @fingerColor;
   border-radius: 100% 50%;
   left: 0px;
-  transform: rotateZ(-20deg);
+  -webkit-transform: rotateZ(-20deg);
+     -moz-transform: rotateZ(-20deg);
+      -ms-transform: rotateZ(-20deg);
+       -o-transform: rotateZ(-20deg);
+          transform: rotateZ(-20deg);
   background: @fingerColor;
 }
 #left-hand .finger-4 {
@@ -357,7 +421,11 @@ transform: rotate(-5deg);
   border-top: 1px solid @fingerColor;
   border-radius: 100% 50%;
   left: 6px;
-  transform: rotateZ(-45deg);
+  -webkit-transform: rotateZ(-45deg);
+     -moz-transform: rotateZ(-45deg);
+      -ms-transform: rotateZ(-45deg);
+       -o-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
   background: @fingerColor;
 }
 #right-hand {
@@ -376,7 +444,11 @@ transform: rotate(-5deg);
   background: white;
   height: 18px;
   width: 5px;
-  transform: rotateZ(-10deg);
+  -webkit-transform: rotateZ(-10deg);
+     -moz-transform: rotateZ(-10deg);
+      -ms-transform: rotateZ(-10deg);
+       -o-transform: rotateZ(-10deg);
+          transform: rotateZ(-10deg);
   z-index: -1;
 }
 #right-hand .finger-1 {
@@ -387,7 +459,11 @@ transform: rotate(-5deg);
   border-left: 17px solid transparent;
   border-right: 0;
   border-bottom: 20px solid #83328a;
-  transform: rotateZ(55deg);
+  -webkit-transform: rotateZ(55deg);
+     -moz-transform: rotateZ(55deg);
+      -ms-transform: rotateZ(55deg);
+       -o-transform: rotateZ(55deg);
+          transform: rotateZ(55deg);
   height: 0;
   left: -4px;
   width: 0px;
@@ -400,7 +476,11 @@ transform: rotate(-5deg);
   border-top: 1px solid #83328a;
   border-radius: 50% 100%;
   left: -4px;
-  transform: rotateZ(-7deg);
+  -webkit-transform: rotateZ(-7deg);
+     -moz-transform: rotateZ(-7deg);
+      -ms-transform: rotateZ(-7deg);
+       -o-transform: rotateZ(-7deg);
+          transform: rotateZ(-7deg);
   background: #83328a;
 }
 #right-hand .finger-3 {
@@ -411,7 +491,11 @@ transform: rotate(-5deg);
   border-top: 1px solid #83328a;
   border-radius: 50% 100%;
   left: -1px;
-  transform: rotateZ(16deg);
+  -webkit-transform: rotateZ(16deg);
+     -moz-transform: rotateZ(16deg);
+      -ms-transform: rotateZ(16deg);
+       -o-transform: rotateZ(16deg);
+          transform: rotateZ(16deg);
   background: #83328a;
 }
 #right-hand .finger-4 {
@@ -422,7 +506,11 @@ transform: rotate(-5deg);
   border-top: 1px solid #83328a;
   border-radius: 50% 100%;
   left: -2px;
-  transform: rotateZ(34deg);
+  -webkit-transform: rotateZ(34deg);
+     -moz-transform: rotateZ(34deg);
+      -ms-transform: rotateZ(34deg);
+       -o-transform: rotateZ(34deg);
+          transform: rotateZ(34deg);
   background: #83328a;
 }
 #shoes{
@@ -441,7 +529,11 @@ transform: rotate(-5deg);
   border-left: 28px solid black;
   border-top: 0;
   border-bottom: 30px solid transparent;
-  transform: rotateZ(30deg) skewX(2deg);
+  -webkit-transform: rotateZ(30deg) skewX(2deg);
+     -moz-transform: rotateZ(30deg) skewX(2deg);
+      -ms-transform: rotateZ(30deg) skewX(2deg);
+       -o-transform: rotateZ(30deg) skewX(2deg);
+          transform: rotateZ(30deg) skewX(2deg);
 }
 #left-foot:after{
   position: absolute;
@@ -454,7 +546,11 @@ transform: rotate(-5deg);
   border-left: 28px solid black;
   border-top: 0;
   border-bottom: 30px solid transparent;
-  transform: rotateZ(-16deg);
+  -webkit-transform: rotateZ(-16deg);
+     -moz-transform: rotateZ(-16deg);
+      -ms-transform: rotateZ(-16deg);
+       -o-transform: rotateZ(-16deg);
+          transform: rotateZ(-16deg);
 }
 #right-foot{
   position: absolute;
@@ -467,7 +563,11 @@ transform: rotate(-5deg);
   border-right: 28px solid black;
   border-top: 0;
   border-bottom: 30px solid transparent;
-  transform: rotateZ(-30deg) skewX(2deg);
+  -webkit-transform: rotateZ(-30deg) skewX(2deg);
+     -moz-transform: rotateZ(-30deg) skewX(2deg);
+      -ms-transform: rotateZ(-30deg) skewX(2deg);
+       -o-transform: rotateZ(-30deg) skewX(2deg);
+          transform: rotateZ(-30deg) skewX(2deg);
 }
 #right-foot:after{
   position: absolute;
@@ -480,7 +580,11 @@ transform: rotate(-5deg);
   border-left: 28px solid black;
   border-top: 0px solid transparent;
   border-bottom: 30px solid transparent;
-  transform: rotateZ(-24deg);
+  -webkit-transform: rotateZ(-24deg);
+     -moz-transform: rotateZ(-24deg);
+      -ms-transform: rotateZ(-24deg);
+       -o-transform: rotateZ(-24deg);
+          transform: rotateZ(-24deg);
 }
 @-webkit-keyframes shine{
   0%   {top: 0;}
@@ -498,11 +602,3 @@ transform: rotate(-5deg);
   0%   {top: 0;}
   100% {top: 90px;}
 }
-
-
-
-
-
-
-
-
