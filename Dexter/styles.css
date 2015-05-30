@@ -1,10 +1,16 @@
 body {
   margin: 50px;
 }
+#lab {
+  width: 600px;
+  height: 450px;
+  position: relative;
+  background: url('lab.jpg');
+}
 #dexter {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 200px;
+  left: 220px;
   width: 200px;
   height: 250px;
 }
